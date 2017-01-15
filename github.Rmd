@@ -213,36 +213,3 @@ In this exercise you will create a README file which will include a description 
     ![](instructions/add_file_webpage.PNG)
     
 6. After a few moments, go to https://github.com/*your_github_username*/IODS-project to see what have changed. 
-
-
-# Useful links
-
-- R: https://www.r-project.org/
-- RStudio: https://www.rstudio.com/
-- RMarkdown: http://rmarkdown.rstudio.com/
-- Github: https://github.com/
-- Github Desktop: https://desktop.github.com/
-- Git: https://git-scm.com/
-
-- [Basic R cheatsheet](https://www.rstudio.com/wp-content/uploads/2016/10/r-cheat-sheet-3.pdf)
-- Videos for learning RStudio and RMarkdown (Arho Toikka): https://www.youtube.com/playlist?list=PLjz3inNXiF4_QIEOwhwK0sC0ePO5xufJ8 
-- Github instructions (add link)
-- Datacamp exercises (add link)
-    + If you are signed in at mooc.helsinki.fi, the DataCamp link above will automaticly create a DataCamp account for you and no login is needed.
-    + Your DataCamp username is the same as the email address you used to sign in at the mooc area. DataCamp will email your password for you after you have first visited the site. 
-    + **Please check that you have logged in when going to DataCamp through the mooc area.**
-    
-
-## RMarkdown
-- [HTML Documents](http://rmarkdown.rstudio.com/html_document_format.html)
-- [Themes](http://bootswatch.com/)
-- [R chunks](http://rmarkdown.rstudio.com/authoring_rcodechunks.html)
-- [Cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
-- [Basic RMarkdown](http://rmarkdown.rstudio.com/authoring_basics.html)
-- [More about RMarkdown](http://rmarkdown.rstudio.com/authoring_pandoc_markdown.html#raw_html)
-
-## Useful R-packages
-- [ggplot2](http://ggplot2.org/) [cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf)
-- dplyr [cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
-- [Cheatsheets](https://www.rstudio.com/resources/cheatsheets/)
-
