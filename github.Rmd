@@ -65,7 +65,8 @@ Follow the steps below.
 - Download Github Desktop from [https://desktop.github.com/](https://desktop.github.com/).  
 - Install the software. The installation instructions can be seen [here](https://help.github.com/desktop/guides/getting-started/installing-github-desktop/).
 - Open and sign in into the Github Desktop with the same username and password you used signing into Github.
-- **KESKEN(?). Is there a need to configure Git as in [GitHubs own instructions](https://help.github.com/desktop/guides/getting-started/configuring-git-for-github-desktop/)?**
+- Configure Git as in [GitHubs own instructions](https://help.github.com/desktop/guides/getting-started/configuring-git-for-github-desktop/). 
+- It may be useful to restart your computer after installing Github Desktop. 
 
 ### Creating a local copy of a repository
 
@@ -78,6 +79,8 @@ In Github Desktop:
 ![](instructions/Clone.PNG)
 
 Now when you make changes to the course files on your computer, you can upload the changes to GitHub by *syncing* the changes with Github Desktop, which is what we'll look at next.
+
+If you can't for some reason clone the repository with Github Desktop, see how its done with Git in Option 3. You can use Git Shell (that came with Github Desktop) to clone the repository.
 
 ### Syncing files
 
@@ -189,27 +192,4 @@ After editing the file, you will need to write a commit (and description of the 
 
 **Summary**: At this point you will have a hunch how to use version control (Github Desktop or Git / Terminal). You have the (forked) repository IODS-project under your GitHub account and you have it copyed (cloned) locally on your computer.
 
-You should also install R and RStudio (instructions for those are here(add link)) if you have not done that already. You will need them in the small Github exercise.
-
-# Small Github Exercise
-
-The point of this small exercise is to get you started on using Github. 
-
-In this exercise you will create a README file which will include a description of the course and the course project. GitHub repositories typically include a README file which tells what the project is about or other useful information about the repository. See below how to add a README-file to your IODS-project repository!
-
-1. Create a .RMarkdown file with RStudio (File > New File > R Markdown). RStudio prompts for a title. The output of the title will be removed, so it does not matter in this case. Just press Ok.
-
-2. When the new file opens, RStudio has some examples for you in there. They can be useful to look at, but for this exercise we do not need them. Delete everything in the file, including the first rows that define the title, author, date and output. You are left with a blank file.
-
-3. Write something about this course in the file. You can use RMarkdown syntax: headers, tables, lists etc. Also include a link to your course diary web page.
-(**Advanced** : If you want to include R-code output to the readme document, you can convert the .Rmd to an .md file using the knit() function in the knitr library, e.g knit(input="readme.Rmd, output="README.md").)
-
-4. Save the file in your computer in the IODS-Project folder as 'README.Rmd'.
-
-5. Upload the Changes to Github
-    + In GitHub Desktop: Choose the project folder. You can see the file you created in the changes-tab. Write a commit message for the changes, 'commit to the master' and sync. 
-    + In Git or Terminal: go to your repository folder in your computer. If your repository is up to date with the Github repository (note: use `git status` and then maybe `git pull`), you can add the new file with `git add README.Rmd`. Then write a commit message for the changes with `git commit -m "commit_message_here"`. Then use the command `git push` to push the changes to Github. You can use `git status` at any point to see the process.
-    + If you can't use Github Desktop or Git you can add README file directly in the webpage into your repository with 'Create new file' or Upload files'.
-    ![](instructions/add_file_webpage.PNG)
-    
-6. After a few moments, go to https://github.com/*your_github_username*/IODS-project to see what have changed. 
+Phew, nice work! Now you are ready to go! :)
